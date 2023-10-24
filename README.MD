@@ -14,17 +14,11 @@ Estatística, uma ciência que lida com a **coleta, organização, análise e in
 
 **População:** Refere-se ao conjunto completo de todas as **entidades individuais que compartilham pelo menos uma característica comum** e são de interesse para o estudo estatístico em questão.
 
-<aside>
 ⚠️ **EX:** Considere todos os estudantes de uma escola como a população. Se você estiver interessado em estudar o desempenho acadêmico de todos os alunos matriculados na escola, a população seria o **conjunto completo de todos os alunos da escola**.
-
-</aside>
 
 **Amostra:** É **uma parte representativa selecionada da população total** que é estudada para fazer inferências ou generalizações sobre a população maior. A amostra é escolhida de forma a representar fielmente as características essenciais da população, tornando possível realizar análises estatísticas significativas sem a necessidade de examinar toda a população.
 
-<aside>
 ⚠️ **EX:** Agora, se você selecionar aleatoriamente 100 alunos dessa escola e estudar seus resultados acadêmicos**, essa seleção de 100 alunos representará a amostra**. Com base nessa amostra, você pode fazer inferências sobre o desempenho acadêmico geral de todos os alunos da escola, sem a necessidade de estudar cada aluno individualmente.
-
-</aside>
 
 ### Étapas
 
@@ -58,9 +52,7 @@ Estatística, uma ciência que lida com a **coleta, organização, análise e in
     Por exemplo, se a altura das pessoas na população original não segue uma distribuição normal, o Teorema do Limite Central ainda prevê que, com amostras grandes o suficiente, a média das alturas amostradas seguirá uma distribuição normal. Isso permite que os estatísticos façam suposições sobre a distribuição das médias amostrais e usem ferramentas estatísticas que dependem da normalidade, mesmo quando a população original não é normal.
     
     Esse teorema é crucial para muitos aspectos da estatística, como a criação de intervalos de confiança e a realização de testes de hipóteses, tornando possível fazer inferências sobre a população com base em amostras, mesmo quando a distribuição original é desconhecida ou não é normal.
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e83ae9a9-5111-46ec-ac16-bbfad4e6e384/cbcffe7c-e0e9-494d-b7a7-79e503d6acd0/Untitled.png)
-    
+      
     ## Medidas de Posição
     
     - **Média:** É a medida de posição mais comum, obtida pela **soma de todos os valores em um conjunto de dados dividida pelo número de observações**. É sensível a valores extremos, **podendo ser distorcida por valores muito altos ou muito baixos**.
@@ -74,5 +66,3 @@ Estatística, uma ciência que lida com a **coleta, organização, análise e in
     - **Moda:** É o **valor que aparece com maior frequência** em um conjunto de dados. Pode haver mais de uma moda (bimodal, trimodal, etc.) ou nenhum valor pode se repetir (sem moda).
         
         Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}. **A moda seria 4,** pois aparece com mais frequência do que os outros números no conjunto.
-        
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e83ae9a9-5111-46ec-ac16-bbfad4e6e384/b3983766-c1aa-433e-9495-3155550959c1/Untitled.png)
