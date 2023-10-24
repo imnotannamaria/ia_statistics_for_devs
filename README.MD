@@ -66,3 +66,18 @@ Estatística, uma ciência que lida com a **coleta, organização, análise e in
     - **Moda:** É o **valor que aparece com maior frequência** em um conjunto de dados. Pode haver mais de uma moda (bimodal, trimodal, etc.) ou nenhum valor pode se repetir (sem moda).
         
         Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}. **A moda seria 4,** pois aparece com mais frequência do que os outros números no conjunto.
+
+    ## Medidas de Dispersão
+
+    1. **Variância:** A variância é uma medida da dispersão dos dados em relação à média. **Ela mede o quão distantes os valores estão da média**. Uma variância alta indica que os valores estão amplamente espalhados em torno da média.
+        
+        Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}. A variância seria calculada como a **média dos quadrados das diferenças entre cada valor e a média**, resultando em um valor numérico que representa a dispersão dos dados.
+        
+    2. **Desvio Padrão:** O desvio padrão é a medida mais comum da dispersão dos dados em relação à média. **É a raiz quadrada da variância** e é expresso na mesma unidade que os dados originais.
+        
+        Exemplo: Usando o mesmo conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}, **a variância seria calculada primeiro e, em seguida, o desvio padrão seria a raiz quadrada desse valor**.
+        
+    3. **Coeficiente de Variação:** O coeficiente de variação (CV) é uma medida relativa da dispersão dos dados em relação à média, expressa como uma porcentagem. Ele permite comparar a dispersão entre diferentes conjuntos de dados que possam ter médias muito diferentes.
+    
+    Exemplo: Se você tiver dois conjuntos de dados com médias e desvios padrão diferentes, o CV permitirá determinar qual conjunto de dados tem uma variação relativa mais alta ou baixa em relação à média.
+    
