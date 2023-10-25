@@ -43,15 +43,15 @@ Estatística, uma ciência que lida com a **coleta, organização, análise e in
     
     b. **Com Ordem (Ordinais):** São características que podem ser organizadas ou classificadas com base em alguma ordem específica. Exemplos incluem níveis de educação (primário, secundário, terciário), classificações de **produtos (baixo, médio, alto)** ou escalas de concordância (discordo totalmente, discordo, neutro, concordo, concordo totalmente).
     
-    ## **Teorema do Limite Central**
-    
-    O Teorema do Limite Central é um conceito fundamental na estatística que afirma que, sob certas condições, **a distribuição das médias amostrais de uma população tende a se aproximar de uma distribuição normal, independentemente da forma da distribuição original da população.** Isso é verdade, desde que o tamanho da amostra seja suficientemente grande.
-    
-    Para ilustrar o Teorema do Limite Central, considere o exemplo de uma população de alturas de todas as pessoas em uma cidade. Se você tirar várias amostras de diferentes tamanhos de indivíduos dessa população e calcular a média de altura em cada amostra, o Teorema do Limite Central afirma que, **à medida que o tamanho das amostras aumenta, a distribuição das médias amostrais se aproximará de uma distribuição normal**, independentemente da forma da distribuição original das alturas na população.
-    
-    Por exemplo, se a altura das pessoas na população original não segue uma distribuição normal, o Teorema do Limite Central ainda prevê que, com amostras grandes o suficiente, a média das alturas amostradas seguirá uma distribuição normal. Isso permite que os estatísticos façam suposições sobre a distribuição das médias amostrais e usem ferramentas estatísticas que dependem da normalidade, mesmo quando a população original não é normal.
-    
-    Esse teorema é crucial para muitos aspectos da estatística, como a criação de intervalos de confiança e a realização de testes de hipóteses, tornando possível fazer inferências sobre a população com base em amostras, mesmo quando a distribuição original é desconhecida ou não é normal.
+## **Teorema do Limite Central**
+
+O Teorema do Limite Central é um conceito fundamental na estatística que afirma que, sob certas condições, **a distribuição das médias amostrais de uma população tende a se aproximar de uma distribuição normal, independentemente da forma da distribuição original da população.** Isso é verdade, desde que o tamanho da amostra seja suficientemente grande.
+
+Para ilustrar o Teorema do Limite Central, considere o exemplo de uma população de alturas de todas as pessoas em uma cidade. Se você tirar várias amostras de diferentes tamanhos de indivíduos dessa população e calcular a média de altura em cada amostra, o Teorema do Limite Central afirma que, **à medida que o tamanho das amostras aumenta, a distribuição das médias amostrais se aproximará de uma distribuição normal**, independentemente da forma da distribuição original das alturas na população.
+
+Por exemplo, se a altura das pessoas na população original não segue uma distribuição normal, o Teorema do Limite Central ainda prevê que, com amostras grandes o suficiente, a média das alturas amostradas seguirá uma distribuição normal. Isso permite que os estatísticos façam suposições sobre a distribuição das médias amostrais e usem ferramentas estatísticas que dependem da normalidade, mesmo quando a população original não é normal.
+
+Esse teorema é crucial para muitos aspectos da estatística, como a criação de intervalos de confiança e a realização de testes de hipóteses, tornando possível fazer inferências sobre a população com base em amostras, mesmo quando a distribuição original é desconhecida ou não é normal.
       
 ## Medidas de Posição
 
@@ -106,3 +106,39 @@ A curtose mede o **pico ou a "apontamento" de uma distribuição**, ou seja, qu�
 - **Mesocúrticas**: A própria **curva normal** padrão
 - **Platicúrtica**: Possui grau de **achatamento maior** que da curva normal padrão, o que nos indica que os dados estão mais espalhados (logo, o desvio padrão também é maior)
 - **Leptocúrtica**: Seu grau de **achatamento é menor** que o da curva normal padrão (curva mais pontiaguda), indica que os dados estão concentrados (desvio padrão menor)
+
+## Correlação
+
+### **Associação Positiva**
+
+Associação positiva ocorre quando duas variáveis **têm uma relação na qual, à medida que uma variável aumenta, a outra também aumenta**. Em outras palavras, quando uma variável cresce, a outra tende a crescer na mesma direção.
+
+**Exemplo:** Considere um estudo que analisa a relação entre o tempo de estudo de um estudante e suas notas em um exame. Se à medida que o tempo de estudo aumenta, as notas do exame também aumentam, isso representa uma associação positiva. Quanto mais tempo o aluno estuda, melhores são suas notas.
+
+### **Associação Negativa**
+
+Associação negativa ocorre quando duas variáveis têm uma relação na qual, **à medida que uma variável aumenta, a outra diminui.** Em outras palavras, quando uma variável cresce, a outra tende a diminuir na mesma direção.
+
+**Exemplo:** Suponha que você esteja investigando a relação entre a quantidade de exercício físico que as pessoas fazem e seu peso corporal. Se, à medida que a quantidade de exercício aumenta, o peso corporal diminui, isso indica uma associação negativa. Quanto mais alguém se exercita, menor é o seu peso.
+
+### **Sem Associação**
+
+A ausência de associação ocorre quando **não há uma relação clara ou sistemática entre duas variáveis.** Nesse caso, as mudanças em uma variável não afetam consistentemente a outra variável.
+
+**Exemplo:** Se você examina a relação entre a quantidade de gelo consumida por pessoas e o número de pássaros em um determinado local, pode não haver uma associação significativa. A quantidade de gelo consumida não terá um impacto direto no número de pássaros na região, portanto, não haverá associação clara entre essas duas variáveis.
+
+### Coeficiente de Pearson
+
+O coeficiente de Pearson é uma medida de correlação usada para avaliar a **relação linear entre duas variáveis contínuas**. Ele mede a força e a direção da relação entre as duas variáveis. Seu valor varia de -1 a 1, onde 1 indica uma correlação positiva perfeita, 0 indica ausência de correlação e **-1 indica uma correlação negativa perfeita**.
+
+**Exemplo de Coeficiente de Pearson:** Considere um estudo que analisa a relação entre as horas de estudo e o desempenho dos alunos em um exame. Se o coeficiente de Pearson for calculado como 0,8, isso indica uma correlação positiva forte, sugerindo que mais horas de estudo estão positivamente relacionadas a um melhor desempenho no exame.
+
+📢 OBS: Adequado para variáveis numéricas que possam ter uma relação linear
+
+### Coeficiente de Spearman
+
+O coeficiente de Spearman é uma medida de correlação usada para **avaliar a relação entre duas variáveis, independentemente de serem contínuas ou ordinais**. Ele avalia a monotonicidade, ou seja, a consistência na direção das mudanças entre as duas variáveis.
+
+**Exemplo:** Considere um estudo que analisa a relação entre a classificação dos alunos em dois exames diferentes. Se o coeficiente de Spearman for calculado como 0,7, isso indica uma correlação positiva forte entre as classificações dos alunos nos dois exames, o que sugere que os alunos que se saem bem em um exame também tendem a se sair bem no outro.
+
+📢 OBS: Adequado quando dos dados não tem uma relação linear clara ou quando as variáveis não são numericamente escalonáveis.
