@@ -53,31 +53,56 @@ Estatística, uma ciência que lida com a **coleta, organização, análise e in
     
     Esse teorema é crucial para muitos aspectos da estatística, como a criação de intervalos de confiança e a realização de testes de hipóteses, tornando possível fazer inferências sobre a população com base em amostras, mesmo quando a distribuição original é desconhecida ou não é normal.
       
-    ## Medidas de Posição
-    
-    - **Média:** É a medida de posição mais comum, obtida pela **soma de todos os valores em um conjunto de dados dividida pelo número de observações**. É sensível a valores extremos, **podendo ser distorcida por valores muito altos ou muito baixos**.
-        
-        Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}. A média seria (2 + 4 + 4 + 4 + 5 + 5 + 7 + 9) / 8 = 40 / 8 = 5.
-        
-    - **Mediana:** É o valor que **separa a metade superior de uma amostra da metade inferior, quando organizada em ordem crescente ou decrescente. É menos sensível a valores extremos em comparação com a média**.
-        
-        Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}**. A mediana seria 4**, pois está no meio do conjunto quando organizado em ordem crescente.
-        
-    - **Moda:** É o **valor que aparece com maior frequência** em um conjunto de dados. Pode haver mais de uma moda (bimodal, trimodal, etc.) ou nenhum valor pode se repetir (sem moda).
-        
-        Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}. **A moda seria 4,** pois aparece com mais frequência do que os outros números no conjunto.
+## Medidas de Posição
 
-    ## Medidas de Dispersão
+- **Média:** É a medida de posição mais comum, obtida pela **soma de todos os valores em um conjunto de dados dividida pelo número de observações**. É sensível a valores extremos, **podendo ser distorcida por valores muito altos ou muito baixos**.
+    
+    Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}. A média seria (2 + 4 + 4 + 4 + 5 + 5 + 7 + 9) / 8 = 40 / 8 = 5.
+    
+- **Mediana:** É o valor que **separa a metade superior de uma amostra da metade inferior, quando organizada em ordem crescente ou decrescente. É menos sensível a valores extremos em comparação com a média**.
+    
+    Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}**. A mediana seria 4**, pois está no meio do conjunto quando organizado em ordem crescente.
+    
+- **Moda:** É o **valor que aparece com maior frequência** em um conjunto de dados. Pode haver mais de uma moda (bimodal, trimodal, etc.) ou nenhum valor pode se repetir (sem moda).
+    
+    Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}. **A moda seria 4,** pois aparece com mais frequência do que os outros números no conjunto.
 
-    1. **Variância:** A variância é uma medida da dispersão dos dados em relação à média. **Ela mede o quão distantes os valores estão da média**. Uma variância alta indica que os valores estão amplamente espalhados em torno da média.
-        
-        Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}. A variância seria calculada como a **média dos quadrados das diferenças entre cada valor e a média**, resultando em um valor numérico que representa a dispersão dos dados.
-        
-    2. **Desvio Padrão:** O desvio padrão é a medida mais comum da dispersão dos dados em relação à média. **É a raiz quadrada da variância** e é expresso na mesma unidade que os dados originais.
-        
-        Exemplo: Usando o mesmo conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}, **a variância seria calculada primeiro e, em seguida, o desvio padrão seria a raiz quadrada desse valor**.
-        
-    3. **Coeficiente de Variação:** O coeficiente de variação (CV) é uma medida relativa da dispersão dos dados em relação à média, expressa como uma porcentagem. Ele permite comparar a dispersão entre diferentes conjuntos de dados que possam ter médias muito diferentes.
+## Medidas de Dispersão
+
+1. **Variância:** A variância é uma medida da dispersão dos dados em relação à média. **Ela mede o quão distantes os valores estão da média**. Uma variância alta indica que os valores estão amplamente espalhados em torno da média.
     
-    Exemplo: Se você tiver dois conjuntos de dados com médias e desvios padrão diferentes, o CV permitirá determinar qual conjunto de dados tem uma variação relativa mais alta ou baixa em relação à média.
+    Exemplo: Considere o conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}. A variância seria calculada como a **média dos quadrados das diferenças entre cada valor e a média**, resultando em um valor numérico que representa a dispersão dos dados.
     
+2. **Desvio Padrão:** O desvio padrão é a medida mais comum da dispersão dos dados em relação à média. **É a raiz quadrada da variância** e é expresso na mesma unidade que os dados originais.
+    
+    Exemplo: Usando o mesmo conjunto de dados {2, 4, 4, 4, 5, 5, 7, 9}, **a variância seria calculada primeiro e, em seguida, o desvio padrão seria a raiz quadrada desse valor**.
+    
+3. **Coeficiente de Variação:** O coeficiente de variação (CV) é uma medida relativa da dispersão dos dados em relação à média, expressa como uma porcentagem. Ele permite comparar a dispersão entre diferentes conjuntos de dados que possam ter médias muito diferentes.
+
+Exemplo: Se você tiver dois conjuntos de dados com médias e desvios padrão diferentes, o CV permitirá determinar qual conjunto de dados tem uma variação relativa mais alta ou baixa em relação à média.
+
+## Medidas de forma
+
+### **Assimetria**
+
+Refere-se à **falta de simetria em uma distribuição**. Uma distribuição simétrica terá valores idênticos à esquerda e à direita da média, enquanto uma distribuição assimétrica **terá uma cauda mais longa em um dos lados da média**.
+
+**EX**: Considere um conjunto de dados que representa os lucros trimestrais de uma empresa. Se a maioria dos lucros estiverem concentrados nos quartos finais do ano, isso resultará em uma assimetria positiva. Se a maioria dos lucros estiver nos quartos iniciais, teremos uma assimetria negativa.
+
+### Tipos
+
+- Simétrica
+- Assimétrica à Direita (Positiva)
+- Assimétrica à Esquerda (Negativa)
+
+### **Curtose**
+
+A curtose mede o **pico ou a "apontamento" de uma distribuição**, ou seja, quão afilada ou achatada é em comparação com uma distribuição normal. Uma curtose alta indica uma distribuição mais concentrada em torno da média, com caudas mais pesadas, enquanto uma curtose baixa indica uma distribuição mais achatada.
+
+**EX**: Considere um conjunto de dados que representa a distribuição de alturas de árvores em uma floresta. Se a distribuição for mais concentrada em torno de um valor central com caudas mais pesadas, ela terá uma curtose alta. Se a distribuição for mais plana e espalhada, terá uma curtose baixa.
+
+### Tipos
+
+- **Mesocúrticas**: A própria **curva normal** padrão
+- **Platicúrtica**: Possui grau de **achatamento maior** que da curva normal padrão, o que nos indica que os dados estão mais espalhados (logo, o desvio padrão também é maior)
+- **Leptocúrtica**: Seu grau de **achatamento é menor** que o da curva normal padrão (curva mais pontiaguda), indica que os dados estão concentrados (desvio padrão menor)
