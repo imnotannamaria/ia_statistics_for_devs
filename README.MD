@@ -142,3 +142,25 @@ O coeficiente de Spearman é uma medida de correlação usada para **avaliar a r
 **Exemplo:** Considere um estudo que analisa a relação entre a classificação dos alunos em dois exames diferentes. Se o coeficiente de Spearman for calculado como 0,7, isso indica uma correlação positiva forte entre as classificações dos alunos nos dois exames, o que sugere que os alunos que se saem bem em um exame também tendem a se sair bem no outro.
 
 📢 OBS: Adequado quando dos dados não tem uma relação linear clara ou quando as variáveis não são numericamente escalonáveis.
+
+## Representação gráfica
+
+### Histograma
+
+- É usado para variáveis numéricas contínuas, mostrando a distribuição doa dados em intervalos.
+
+### Barras
+
+- Aplicável a variáveis categóricas ou discretas, exibindo a contagem ou frequência de cada categoria.
+
+### Dispersão
+
+- Usado para mostrar a relação entre duas variáveis numéricas, ajudando a identificar padrões ou tendências.
+
+### Box Plot
+
+- Adequado para variáveis numéricas ou categóricas ordinais, revelando distribuição, mediana e valores atípicos. 
+
+### Linhas
+
+- Utilizado para variáveis numéricas ao longo do tempo ou em uma sequência, destacando tendências temporais.
